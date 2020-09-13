@@ -5,7 +5,7 @@
 ##### PATH: /api/COFFEE_MACHINES - METHOD: GET
 ##### Get a list of coffee machines filtered based on url parameters
 ##### URL PARAMETERS:
-- product_type:``` COFFEE_MACHINE_LARGE | COFFEE_MACHINE_SMALL | ESPRESSO_MACHINE```
+- product_type: ```COFFEE_MACHINE_LARGE | COFFEE_MACHINE_SMALL | ESPRESSO_MACHINE```
 - water_line_compatible:```True | False```
 --------------------------------------------------------
 ##### PATH: /api/COFFEE_PDS - METHOD: GET
@@ -13,7 +13,7 @@
 ##### URL PARAMETERS:
 - product_type: ```COFFEE_POD_LARGE | COFFEE_POD_SMALL | ESPRESSO_POD```
 - coffee_flavor: ```COFFEE_FLAVOR_VANILLA | COFFEE_FLAVOR_CARAMEL | COFFEE_FLAVOR_PSL | COFFEE_FLAVOR_MOCHA | COFFEE_FLAVOR_HAZELNUT```
-- pack_size:``` 1 | 3 | 5 | 7```
+- pack_size: ```1 | 3 | 5 | 7```
 
 ### Sample requests and responses
 #### All espresso machines: 
@@ -44,7 +44,7 @@ RESPONSE:
 }
 ```
 #### All small pods: 
-GET api/COFFEE_PODS?product_type=COFFEE_POD_SMALL
+```GET api/COFFEE_PODS?product_type=COFFEE_POD_SMALL```
 
 RESPONSE: 
 ```
