@@ -116,7 +116,7 @@ RESPONSE:
 }
 ```
 #### All pods sold in 7 dozen packs
-GET api/COFFEE_PODS?pack_size=7
+```GET api/COFFEE_PODS?pack_size=7```
 
 RESPONSE: 
 ```
