@@ -1,5 +1,5 @@
 ## Inolova task: Simple Coffe store app API
-#### Using flask to build a simple API for a Coffe app with two screens. And mongodb Atlas cloud (free tier) to host the data
+#### Using flask to build a simple API for a Coffee machine vendor app with two screens. And mongodb Atlas cloud (free tier) to host the data
 
 ### Simple API reference
 ##### PATH: /api/COFFEE_MACHINES - METHOD: GET
