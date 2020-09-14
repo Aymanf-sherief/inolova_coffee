@@ -2,6 +2,9 @@ import pymongo
 from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 
+# Change this with your own URI if needed, this points to my own mongodb atlas cloud M0 free-tier mongodb instance
+# It already has the data registered and could make checking this task a lot easier
+# but if you wish to test it on some of your own data, change this here. otherwise, leave everything the same
 MONGODB_URI = "mongodb+srv://ayman:inolova_pass@cluster0-979xj.mongodb.net/inolova?retryWrites=true&w=majority"
 
 # connect to the required mongodb collection, edit this if your database/collection name is different
