@@ -139,3 +139,17 @@ RESPONSE:
    "success":true
 }
 ```
+
+#### The estimated time needed for each task:  
+
+- reading and understating the task : 30 minutes
+- preparing the mongodb cluster and inserting data : 1 hour
+- coding up the first prototype for the coffee machines endpoint : 30 minutes
+- testing and fixing errors for the coffee machines endpoint : 30 minutes
+- repeating the same implementation with requires changes for the coffee pods endpoint : 20 minutes
+- code refactoring and enhancements : 10 minutes
+- testing and validating the whole system : 10 minutes
+- documenting the api in this readme file : 30 minutes
+- documenting and commenting the code and final revision : 15 minutes
+
+- ##### Estimated total time : roughly 4 hours 
