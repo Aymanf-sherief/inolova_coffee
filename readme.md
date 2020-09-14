@@ -1,4 +1,4 @@
-## Inolova task: Simple Coffe store app API
+## Inolova task: Simple Coffee store app API
 #### Using flask to build a simple API for a Coffee machine vendor app with two screens. And mongodb Atlas cloud (free tier) to host the data
 
 ### Simple API reference
