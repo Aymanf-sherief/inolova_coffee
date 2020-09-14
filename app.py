@@ -4,11 +4,15 @@ from flask_cors import CORS, cross_origin
 
 MONGODB_URI = "mongodb+srv://ayman:inolova_pass@cluster0-979xj.mongodb.net/inolova?retryWrites=true&w=majority"
 
+# connect to the required mongodb collection, edit this if your database/collection name is different
 client = pymongo.MongoClient(MONGODB_URI)
 inolova = client.inolova
 coffee = inolova.coffee
+
+# making sure SKUs are unique, essential to avoid duplicate products
 coffee.create_index([("SKU", pymongo.DESCENDING)], unique=True)
 
+# defining reference strings and values
 COFFEE_MACHINES_PRODUCT_TYPES = ["COFFEE_MACHINE_LARGE", "COFFEE_MACHINE_SMALL", "ESPRESSO_MACHINE"]
 WATER_LINE_COMPATIBLES = [True, False]
 
